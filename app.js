@@ -20,3 +20,32 @@
 // alert("Ready")
 // var c= Math.floor(Math.random()*6+1)
 // document.write("Dies num is now is:" +c)
+
+// Random Password Generator
+
+var a = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
+var b = ["G", "H", "J", "K", "L", "M", "N", "O", "P", "Q"]
+var c = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+var d = ["@", "!", ".", "/", "]", "[", "_", "#", ",", "^"]
+
+
+    var randomCount = Math.floor(Math.random() * 9999)
+    // console.log(randomCount)
+    var first1 = randomCount.toString()
+    var second = first1.split("")
+
+    var third = second[0]
+    var third1 = second[1]
+    var third2 = second[2]
+    var third3 = second[3]
+    var fourth = a[third]
+
+    var fourth1 = b[third1]
+
+    var fourth2 = c[third2]
+
+    var fourth3 = d[third3]
+    var array = fourth + fourth3 + fourth2 + fourth1
+    document.write(array)
+
+
