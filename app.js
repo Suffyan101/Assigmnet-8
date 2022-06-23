@@ -31,13 +31,14 @@ var d = ["@", "!", ".", "/", "]", "[", "_", "#", ",", "^"]
 
     var randomCount = Math.floor(Math.random() * 9999)
     // console.log(randomCount)
-    var first1 = randomCount.toString()
-    var second = first1.split("")
+    var numToString = randomCount.toString()
+    var convertToArray = numToString.split("")
 
-    var third = second[0]
-    var third1 = second[1]
-    var third2 = second[2]
-    var third3 = second[3]
+    var third = convertToArray[0]
+    var third1 = convertToArray[1]
+    var third2 = convertToArray[2]
+    var third3 = convertToArray[3]
+    
     var fourth = a[third]
 
     var fourth1 = b[third1]
