@@ -1,5 +1,5 @@
 
-// Hate and Tale Game
+// Head and Tails Game
 
 // var a  = prompt("Hate or tale")
 // var b = a.toLowerCase()
@@ -15,7 +15,7 @@
 //     alert("Try again")
 // }
 
-// Dies Game
+// Dice Game
 
 // alert("Ready")
 // var c= Math.floor(Math.random()*6+1)
